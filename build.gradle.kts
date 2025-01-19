@@ -16,6 +16,9 @@ dependencies {
     implementation("org.apache.logging.log4j:log4j-api:2.20.0")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.0")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.18.0")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:4.1.0")
+    compileOnly("org.projectlombok:lombok:1.18.30")
+    annotationProcessor("org.projectlombok:lombok:1.18.30")
 }
 
 tasks.test {
